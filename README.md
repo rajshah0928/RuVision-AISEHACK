@@ -73,10 +73,6 @@ Output (B × 16 × 140 × 124)
 
 ```
 ├── training_pipeline_v6.ipynb     # Best submitted pipeline (score 0.8403)
-├── exp1_simplified_arch.ipynb     # Experiment: smaller architecture variants
-├── exp2_loss_function.ipynb       # Experiment: alternative loss functions
-├── exp3_clusters_dbscan.ipynb     # Experiment: clustering strategy variants
-├── exp4_loss_weights.ipynb        # Experiment: loss component weight tuning
 ├── requirements.txt               # Python dependencies
 ├── LICENSE                        # ANRF Open License
 └── README.md
@@ -93,13 +89,7 @@ All notebooks are designed to run on **Kaggle** with GPU (T4 or P100).
 3. Run all cells — training takes ~45 min on T4
 4. Final cell saves `preds.npy` (shape: 218×140×124×16) for submission
 
-For experiments (Exp1–4), set the variant variable at the top of each notebook before running:
-- `ARCH_VARIANT = 'A'` or `'B'` for Exp1
-- `LOSS_VARIANT = 'A'/'B'/'C'/'D'` for Exp2
-- `CLUSTER_VARIANT = 'A'/'B'/'C'/'D'/'E'` for Exp3
-- `LOSS_WEIGHTS_VARIANT = 'A'/'B'/'C'/'D'/'E'` for Exp4
-
-**Kaggle Notebooks:** [Add link here]
+**Kaggle Notebook:** https://www.kaggle.com/code/rajshahcx28/training-pipeline-v6/edit
 
 ---
 
@@ -120,12 +110,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
-## Model Checkpoints
-
-Best model checkpoint (v6) is available on:
-- **Kaggle Hub:** [Add link here]
-- **HuggingFace:** [Add link here]
 
 Licensed under ANRF Open License (see `LICENSE`).
 
