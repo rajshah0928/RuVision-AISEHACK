@@ -1,7 +1,7 @@
 # RuVision — AISEHack 2026 Phase 2: India in the Haze (PM2.5)
 
 **Team:** Raj Shah, Saptarshi Misra, Hiteshri Shastri  
-**Final Score:** 0.8636 (leaderboard) | Top score: 0.8968  
+**Final Score:** 0.8636 (leaderboard) 
 **Theme:** PM2.5 concentration forecasting over India — 16-hour ahead forecast from 10-hour lookback
 
 ---
@@ -106,14 +106,7 @@ All experiments run from the v6 baseline (score: 0.8403). Each tests one change 
 ```
 ├── training_pipeline_v6.ipynb        # Baseline (score: 0.8403)
 ├── training_pipeline_v7.ipynb        # Best submission (score: 0.8636)
-├── training_pipeline_v7_regional.ipynb  # Regional ensemble experiment
 ├── inference.ipynb                   # Clean inference-only notebook
-├── exp1_simplified_arch.ipynb        # Architecture ablation (variants A/B)
-├── exp2_loss_function.ipynb          # Loss function variants (A/B/C/D)
-├── exp3_clusters_dbscan.ipynb        # Clustering variants (A/B/C/D/E)
-├── exp4_loss_weights.ipynb           # Loss weight variants (A/B/C/D/E)
-├── exp5_lighter_arch.ipynb           # Further arch simplification
-├── exp6_loss_weight_finetune.ipynb   # Further loss weight fine-tuning
 ├── requirements.txt                  # Python dependencies
 ├── GENAI_USAGE.md                    # GenAI tool disclosure
 └── LICENSE                           # ANRF Open License
@@ -125,7 +118,7 @@ All experiments run from the v6 baseline (score: 0.8403). Each tests one change 
 
 The v7 final checkpoint is available at:
 
-> **[Upload link to be added — Kaggle Hub / HuggingFace]**
+> https://www.kaggle.com/datasets/rajshahcx28/pm25-v7
 
 To use: download `v7_final.pt` and run `inference.ipynb`.
 
